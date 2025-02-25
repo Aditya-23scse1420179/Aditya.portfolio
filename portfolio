@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/aditya.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Singh - Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="./Aditya Singh - Developer Portfolio_files/css2" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(0, 0, 34);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 64);
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+        nav ul li a:hover {
+            color: rgb(153, 153, 226);
+            font-size: 1.04rem;
+        }
+        main hr {
+            border: 0;
+            background: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+        .left {
+            font-size: 1.5rem;
+        }
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 80px 0;
+        }
+        .firstSection > div {
+            width: 30%;
+        }
+        .leftSection {
+            font-size: 3rem;
+        }
+        .leftSection .button {
+            padding: 12px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 4px;
+            font-size: 20px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .rightSection img {
+            width: 200px; /* Adjust the size as needed */
+            border-radius: 50%; /* Makes the image circular */
+        }
+        .text-gray {
+            color: gray;
+        }
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+        }
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+        footer {
+            background-color: rgb(2, 30, 57);
+            height: 233px;
+        }
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+        .footer ul {
+            list-style: none;
+        }
+        .contact-section {
+            text-align: center;
+            margin: 50px 0;
+        }
+        .contact-section h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        .contact-section a {
+            text-decoration: none;
+            color: white;
+            padding: 10px 20px;
+            background-color: rgb(18, 18, 64);
+            border: 2px solid white;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-section a:hover {
+            background-color: rgb(50, 50, 120);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Aditya's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="http://127.0.0.1:5500/">Home</a></li>
+                    <li><a href="http://127.0.0.1:5500/">About</a></li>
+                    <li><a href="http://127.0.0.1:5500/aditya.html#services">Services</a></li>
+                    <li><a href="http://127.0.0.1:5500/">Projects</a></li>
+                    <li><a href="http://127.0.0.1:5500/aditya.html#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection"> 
+            <div class="leftSection">
+                Hi, my name is Aditya Pratap Singh 
+                <div>and I am a Passionate</div>
+                <span id="element">Data Analyst</span><span class="typed-cursor typed-cursor--blink" aria-hidden="true">|</span>
+                <div>
+                    <!-- Resume Download Button -->
+                    <a href="file:///C:/Users/adity/Downloads/Aditya's%20Resume-hackerresume.pdf" target="_blank" download="">
+                        <button class="button">Download Resume</button>
+                    </a>
+                    <!-- GitHub Button -->
+                    <a href="https://github.com/Aditya-23scse1420179" _blank"="">
+                        <button class="button">Visit GitHub</button>
+                    <!-- Leetcode Button -->
+                    <a href="https://leetcode.com/u/Adityaup43/" _blank"="">
+                        <button class="button">Visit Leetcode</button>
+                    </a>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="C:\Users\adity\Documents\WhatsApp Image 2024-11-20 at 11.39.11_2ae941da.jpg" alt="portfolio.jpg" style="width: 200px; border-radius: 50%;">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>About Me</h1>
+            <p>
+                I am Aditya Pratap Singh a second-year B.Tech student at Galgotias University, pursuing my passion for engineering and technology. I am eager to learn new things and apply my knowledge to real-world problems. I have a strong interest in COMPUTER SCIENCE AND ENGINEERING IN DATA SCIENCE and I am always looking for opportunities to enhance my skills and gain practical experience in this field. I am also involved in Entrepreneurship club , Literature club , coading club that allow me to explore my creativity and leadership potential. I am looking to connect with like-minded professionals and mentors who can guide me and inspire me in my career journey.
+            </p>
+            <h2> Achievement and ceritification</h2>
+            <p>
+                I have completed various online courses and certifications in Data Science and Machine Learning from platforms like Courser:
+                       
+                1:- AI Intern in edunet foundation(Based on internship)
+                2:-Data science Intern in altair(Based on internship)
+                3:- AWS Data ENGINEER in Amazon web Services (Based on internship)
+            </p>         
+            
+            
+        </section>
+        <section id="services" class="secondSection">
+            <h1>Services</h1>
+            <ul>
+                <li>Website development using HTML, CSS, JavaScript, Next.js, and Node.js</li>
+                <li>Front-end and back-end web development</li>
+                <li>Custom web solutions and design</li>
+                <li>Java and Python programming solutions</li> 
+                <li>Database management using MySQL</li>
+                <li>AI-related concepts and implementation</li>
+            </ul>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <h1>Projects</h1>
+            <p>Spam-Email-Classification-using-NLP-and-Machine-Learning
+                Email spam detection system is used to detect email spam using Machine Learning technique called Natural Language Processing and Python, where we have a dataset contain a lot of emails by extract important words and then use naive classifier we can detect if this email is spam or not.Email spam detection system is used to detect email spam using Machine Learning technique called Natural Language Processing and Python, where we have a dataset contain a lot of emails by extract important words and then use naive classifier we can detect if this email is spam or not. </p>
+        </section>
+        
+        <hr>
+        <!-- New Contact Section -->
+        <section class="contact-section">
+            <h2>Interested? Contact Me!</h2>
+            <p>If you're interested in working with me or have any inquiries, feel free to send me an email or give me a call!</p>
+            <a href="mailto:Adityapratapsingh412261mail.com">Send an Email</a> 
+            <br><br>
+            <a href="tel:+91 9026174982">Call Me</a>
+        </section>
+        <hr>
+        <section id="contact" class="secondSection">
+            <h1>Contact Me</h1>
+            <p>Email: <a href="mailto:Adityapratapsingh412261@gmail.com" style="color: white;">Adityapratapsingh412261@gmail.com</a></p>
+            <p>Phone: <a href="tel:+9026174982" style="color: white;">+91 9026174982</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1>Aditya's Portfolio</h1>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Projects</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Projects</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>Contact</li>
+                    <li>Projects</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./Aditya Singh - Developer Portfolio_files/typed.umd.js.download"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer', 'Data Analyst'],
+            typeSpeed: 50,
+        });
+    </script><style data-typed-js-cursor-css="true">
+        .typed-cursor{
+          opacity: 1;
+        }
+        .typed-cursor.typed-cursor--blink{
+          animation: typedjsBlink 0.7s infinite;
+          -webkit-animation: typedjsBlink 0.7s infinite;
+                  animation: typedjsBlink 0.7s infinite;
+        }
+        @keyframes typedjsBlink{
+          50% { opacity: 0.0; }
+        }
+        @-webkit-keyframes typedjsBlink{
+          0% { opacity: 1; }
+          50% { opacity: 0.0; }
+          100% { opacity: 1; }
+        }
+      </style>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
